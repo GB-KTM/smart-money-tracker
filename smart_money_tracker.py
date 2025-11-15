@@ -51,7 +51,7 @@ def extract_trend(js):
 # 4️⃣ Daily market-wide FII/DII flow
 # -----------------------------
 def daily_flow_sentiment():
-    url = "https://www.nseindia.com/api/fiidiiTradeReact?date=&category=all"
+    url = "https://www.nseindia.com/api/fiidiiTradeReact?date=14-11-2024&category=all"
     resp = requests.get(url, headers=HEADERS, timeout=10)
     
     try:
